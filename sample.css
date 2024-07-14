@@ -1,0 +1,61 @@
+*
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-content i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.card-content span {
+    color: #777;
+}
+
+/* Example icons (use your own or a library like Font Awesome) */
+.icon-heart::before {
+    content: "\2665"; /* Heart symbol */
+}
+
+.icon-clock::before {
+    content: "\23F1"; /* Clock symbol */
+}
+
+.icon-check::before {
+    content: "\2714"; /* Check symbol */
+}
+
+.icon-trophy::before {
+    content: "\1F3C6"; /* Trophy symbol */
+}
