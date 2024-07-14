@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+overflow: auto;
+} :root{
+    --text:white;
+}
+h2{
+    position: absolute;
+    top: 23%;
+    right: 20%;
+    left: 5%;
+    text-transform: uppercase;
+    color: red;
+}
+h1{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    left: 5%;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: left;
+    width: 35%;
+}
+p{
+    position: absolute;
+    top: 45%;
+    right: 20%;
+    left: 5%;
+    font-size: 15px;
+    text-align: left;
+    text-indent: 0%;
+    width: 30%;
+}
+img{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+   
+    height: 650px;
+    width: 850px;
+
+}
+a{
+    position: absolute;
+    top: 75%;
+    right: 20%;
+    left: 5%;
+    
+}
+button{
+    color: white; 
+    background-color: #da1414;
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase
+}
+#head{
+    position: absolute;
+    top: 105%;
+    right: 30%;
+    left: 5%;
+    text-transform: uppercase;
+    color: red;
+}
+#para{
+    position:absolute;
+    top: 115%;
+    right: 50%;
+    left: 45%;
+}
+#head2{
+    position: absolute;
+    top: 115%;
+    right: 30%;
+    left: 5%;
+    text-transform: uppercase;
+    text-align: left;
+    width: 25%;
+}
+#girl{
+    position: absolute;
+    top: 135%;
+    right: 72%;
+    height: 450px;
+    width: 350px; 
+}
+#image{
+    position: absolute;
+    top: 135%;
+    right: 48%;
+    height: 450px;
+    width: 350px; 
+}
+#web{
+    position: absolute;
+    top: 135%;
+    right: 24%;
+    height: 450px;
+    width: 350px; 
+}
+#last{
+    position: absolute;
+    top: 135%;
+    right: 0%;
+    height: 450px;
+    width: 350px; 
+}
+#button2
+{
+    position: absolute; 
+    background-color: white;
+    color: red;
+    top: 191%;
+    right: 60%;
+    left: 60%;
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.header h2 {
+    position: absolute;
+    top: 215%;
+    left: 25%;
+    color: red;
+}
+
+.header h1 {
+    position: absolute;
+    top: 225%;
+    right: 20%;
+    left: 40%;
+    margin-top: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-section img {
+    position: absolute;
+    top: 235%;
+    right: 47%;
+    height: 500px;
+    width: 700px;
+    max-width: 100%;
+    
+}
+
+.text-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-item {
+   
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.text-item h3 {
+    position: absolute;
+    top: 237%;
+    left: 55%;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+}
+.text-item p{
+    position: absolute;
+    top: 245%;
+    left: 55%;
+}
+.text-item #head0{
+    position: absolute;
+    top: 260%;
+    left: 55%;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+}
+.text-item #para1{
+    position: absolute;
+    top: 267%;
+    left: 55%; 
+}
+.text-item #head1{
+    position: absolute;
+    top: 283%;
+    left: 55%;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+}
+.text-item #para2{
+    position: absolute;
+    top: 290%;
+    left: 55%;
+}
+
+#head3{
+    position: absolute;
+    top: 310%;
+    left: 45%;
+    color: red;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+
+#a3{
+    position: absolute; 
+    background-color: white;
+    color: red;
+    top: 320%;
+    right: 70%;
+    left: 50%;
+    width: 250px;
+    height: 210px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0;
+    font-size: 30px;
+    margin: 0;
+    }
+   
